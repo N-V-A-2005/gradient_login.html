@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://thumbs.dreamstime.com/b/abstract-coding-wallpaper-dark-text-programming-future-concept-d-rendering-147291405.jpg">
+
+    <!--fontawesome cdn importing-->
+    <script src="https://kit.fontawesome.com/a12a1e364d.js" crossorigin="anonymous"></script>
+
+    <title>Gradient Login Form</title> 
+</head>
+<body>
+<div id="body">
+    <!--signup form div-->
+    <div id="container">
+        <form action="" id="loginForm">
+            <div class="input-group">
+
+                <!--Name input area-->
+                <input type="text" placeholder="Enter your name.." id="name" pattern="[a-z, A-Z]*">
+                <label for="name" id="name_label">
+                    <span class="icon"><i class="fas fa-user"></i></span>
+                    Name
+                </label>
+                <!--email input area-->
+                <input type="email" placeholder="something@domain.com" id="email">
+                <label for="email" id="lmail">
+                    <span class="icon"><i class="fas fa-envelope"></i></span>
+                    Email
+                </label>
+                <!--password input area-->
+                <input type="password" placeholder="Enter your password.." id="password">
+                <label for="password" id="lpass">
+                    <span class="icon"><i class="fas fa-lock"></i></span>
+                    Password
+                </label>
+                <!--password confirm area-->
+                <input type="password" placeholder="Confirm your password.." id="cpassword">
+                <label for="cpassword" id="lcpass">
+                    <span class="icon"><i class="fa-solid fa-fingerprint"></i></span>
+                    Confirm Password
+                </label>
+                <!--submit button-->
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+    <!--importing jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+</html>
